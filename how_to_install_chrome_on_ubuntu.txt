@@ -1,0 +1,29 @@
+
+Step1: Download Google Chrome
+      Open your terminal
+      Run the following command to download latest Google Chrome .deb package.
+
+      wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+
+Step 2: Install Google Chrome
+       Enter the following command in your terminal to install Google Chrome .deb package
+
+       sudo apt install ./google-chrome-stable_current_amd64.deb
+
+       Enter your password if needed
+
+Step 3: Delete the installer file
+
+      rm google-chrome-stable_current_amd64.deb
+
+Step 4: Using Google Chrome
+       You can start chrome in two ways,
+       Click Google Chrome from the Applications menu
+       Or, use the google-chrome command from the terminal
+
+       google-chrome
+
+
+
+      
